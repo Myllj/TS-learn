@@ -1,0 +1,13 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "CommonJS",
+    "lib": ["ES2016", "DOM"],
+    "isolatedModules": true,
+    "rootDir": "./TS基础",
+    "outDir": "./dist",
+    "noEmitOnError": true
+  },
+  "include": ["./TS基础/**/*.ts"]
+}
