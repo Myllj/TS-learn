@@ -9,7 +9,9 @@
  */
 export {}
 
-import './01-基础类型'
-import './02-Any 类 型 和 unknown 顶级类型'
-import './03-数组类型'
-import './04-元组'
+// import './01-基础类型'
+// import './02-Any 类 型 和 unknown 顶级类型'
+// import './03-数组类型'
+// import './04-元组' 
+// import './05-接口和对象类型'
+import './06-函数类型'
