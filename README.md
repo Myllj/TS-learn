@@ -6,18 +6,20 @@
 # 学习资料及路径
 
 + 文档或书籍（资料准确性以官网为准，但是官网教程比较不友好，非常枯燥，上手难度大,晦涩难懂，建议可以先看TypeScript 入门教程，反复对比官网，提炼精华）（推荐学习顺序，优先级依次向下）
-  + [TypeScript 入门教程](https://ts.xcatliu.com/advanced/type-aliases.html)
-  + [TypeScript 使用手册](https://github.com/zhongsp/TypeScript) （该书大多借鉴下面官网文档中文版）
-  + [官网文档](https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html) （中文版）
+  + 官方：
+    + [官网文档](https://www.tslang.cn/docs/handbook/typescript-in-5-minutes.html) （中文版）
     + [TypeScript手册（英文版）](https://www.typescriptlang.org/docs/)
-  + [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+  + 其他：
+    + [TypeScript 入门教程](https://ts.xcatliu.com/advanced/type-aliases.html)
+    + [TypeScript 教程-阮一峰著](https://wangdoc.com/typescript/)
+    + [TypeScript 使用手册](https://github.com/zhongsp/TypeScript) （大多借鉴官网文档中文版）
+    + [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
 + 视频教程
   + 免费
     + [尚硅谷TypeScript教程](https://www.bilibili.com/video/BV1Xy4y1v7S2?spm_id_from=333.337.search-card.all.click)
     + [Typescript教程_Typescript视频教程 ts入门实战视频教程-2021年更新 包含Vue3+Ts](https://www.bilibili.com/video/BV1yt411e7xV?spm_id_from=333.337.search-card.all.click)
   + [慕课网：基于 TypeScript 从零重构 axios](https://coding.imooc.com/class/330.html)
   + [极客时间： TypeScript 开发实战](https://time.geekbang.org/course/intro/100032201?tab=intro)
-
 + 博客（加粗项是博主系列教程，其他项是单篇博客文章）
 
   + **[后盾人-TypeScript教程](https://doc.houdunren.com/typescript/1%20%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.html#%E4%BB%8B%E7%BB%8D)**
@@ -66,6 +68,8 @@ import './04-对象类型'
 //运行
 ts-node main.ts
 ```
+
+
 
 
 

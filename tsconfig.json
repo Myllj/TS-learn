@@ -5,9 +5,9 @@
     "module": "CommonJS",
     "lib": ["ES2016", "DOM"],
     "isolatedModules": true,
-    "rootDir": "./TS基础",
+    "rootDir": ".",
     "outDir": "./dist",
     "noEmitOnError": true
   },
-  "include": ["./TS基础/**/*.ts"]
+  "include": ["./**/*.ts"]
 }

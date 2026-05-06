@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch TS基础 -e ts --exec ts-node TS基础/index.ts"
+    "dev": "nodemon --watch 1-TS基础 -e ts --exec ts-node 1-TS基础/index.ts"
   },  
   "author": "",
   "license": "ISC",
