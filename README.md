@@ -11,8 +11,7 @@
     + [TypeScript手册（英文版）](https://www.typescriptlang.org/docs/)
   + 其他：
     + [TypeScript 入门教程](https://ts.xcatliu.com/advanced/type-aliases.html)
-    + [TypeScript 教程-阮一峰著](https://wangdoc.com/typescript/)
-    + [TypeScript 使用手册](https://github.com/zhongsp/TypeScript) （大多借鉴官网文档中文版）
+    + [TypeScript 教程-阮一峰著](https://wangdoc.com/typescript/) -**非常推荐**
     + [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
 + 视频教程
   + 免费
@@ -34,42 +33,6 @@
 + 工具
 
   + **[Playground](https://www.typescriptlang.org/play?#code/PTAEiJrQ5+MU3NAYlUAqBPADgUwMoGMBOBLFAF1EBR7QYb9AudUBh-gKBFEE34wejNAAOUCo5QTb9ADeUAXjQbPlAaP6BMxSqAwJUDVcoBiVQGbagAzlEqTLgLFAIW6BFf0CbXoCAGGnTCAKg0D3yoFO5E4CDNQNBygSDlAs56BO00Dw+oH95QBSugYO1AWP-79oUAFpQdkBYOUAseUAWD0B5dUBvuUBVeUAcOUB-SNU5BXRsfCJQVUAGdXtdegCgtkBleUAYrLSlTOJAW+jAVZtANz1AODlAaojALrkJXPzfIvZXQDi5QGlbQFXo4MAYFUqMlVABQEXowHxzQHylQF+A1UBMm0BG710aLAB7ADsAZ2IAQ32AUQAPE4BbFAAbNAA1E-wTgCNH0ABeUAAiAASaHu912oAA6rscPcACZ-HYHQ67R4AOlBAHMABRnK63B7PV54D6PACUenopkAnQ6Ab8VAFBy9lUoEAOASALk9ANHygFwCUCANCNmYAG00A36kcqgmQBhcoBjyMAL2aALE1AM6K-RqgAAo1SAQ-lAPYG2nh9G5gFAAwAESoATNIYgGy5QAXNoApxIagBQ5QAA+oBpzTcVEALqZscgUVSANDlADKugF+EwB6Ov0uLo-EA) （TypeScript官网在线编写运行TS代码）**
-
-
-
-# 常见问题汇总及命令！
-
-```bash
-//1.运行tsc --init,创建tsconfig.json
-tsc --init
-```
-
-## 如何调试多个.ts文件？
-
-```bash
-//安装
-npm install -g typescript ts-node
-```
-
-
-
-```bash
-//新建main.ts，文件里引入如下文件
-import './01-基础类型'
-import './02-数组类型'
-import './03-元组'
-import './04-对象类型'
-// ...所有你要运行的文件
-```
-
-
-
-```bash
-//运行
-ts-node main.ts
-```
-
-
 
 
 
@@ -106,7 +69,7 @@ npm i -g nodemon
  },
 ```
 
-![image-20260430213217066](https://cdn.jsdelivr.net/gh/Myllj/img-bed@main/images/AI-learn/image-20260430213217066.png)
+![image-20260430213217066](https://cdn.jsdelivr.net/gh/Myllj/img-bed@main/images/TS/image-20260430213217066.png)
 
 **调试**
 
