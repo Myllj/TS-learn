@@ -4,7 +4,7 @@
     "target": "ES2016",
     "module": "CommonJS",
     "lib": ["ES2016", "DOM"],
-    "isolatedModules": true,
+    "isolatedModules": false,
     "rootDir": ".",
     "outDir": "./dist",
     "noEmitOnError": true

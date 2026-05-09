@@ -28,8 +28,9 @@ tsconfig.json文件
     // "outDir": "./dist",
     "strict": true
 }
-​```
 ```
+
+
 
 ## 如何使用？
 
