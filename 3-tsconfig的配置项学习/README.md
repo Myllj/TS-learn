@@ -1,7 +1,12 @@
 ## 生成tsconfig.json 文件
 这个文件是通过tsc --init命令生成的
 
-**配置详解**
+## 调试注意点
++ tsc demo.js 直接运行这命令时不会走tsconfig.json配置文件
++ tsc 直接运行时会走tsconfig.json配置文件;但是会把目录下的所以.ts文件都编译，如果需要编译指定文件可以配置inclue或files配置项等
+
+
+## 配置详解
 
 更多配置请查看以下地址:
 [官网](https://www.tslang.cn/docs/handbook/tsconfig-json.html)
